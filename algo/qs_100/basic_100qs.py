@@ -8,7 +8,7 @@
     for i in range(2000 , 3201): 
       if i%7 == 0 and i%5 != 0: 
         l.append(i)
-    return l    
+    return l
                      
 obj1 = Solution()
 ret = obj1.div_non_div_num()
@@ -125,8 +125,56 @@ strObj.printString()'''
 
         
         
+# Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+# Suppose the following input is supplied to the program:
+# without,hello,bag,world
+# Then, the output should be:
+# bag,hello,without,world
+# Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
         
+class SortedWord:
+    def sorted_list(l):
+        str = input ("Enter your word_list")
+        words = [word.lower() for word in str.split()]
+        words.sort()
+        for word in words:
+            print(word)
 
+    def upper_line(l):
+        str = input("Enter the line")
+        main = str.upper()
+        print(main)
+
+
+    
+    
+          
+        
+obj1 = SortedWord()
+obj1.sorted_list()
+obj1.upper_line()
+
+
+
+# Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+# Suppose the following input is supplied to the program:
+# Hello world
+# Practice makes perfect
+# Then, the output should be:
+# HELLO WORLD
+# PRACTICE MAKES PERFECT
+
+
+
+
+
+
+
+
+
+
+
+        
               
 
 
