@@ -1,2 +1,4 @@
 This is just a learning text file. 
 I wanna learn this process.
+
+use backslash for windows / in the path 

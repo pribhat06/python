@@ -144,10 +144,7 @@ class SortedWord:
         str = input("Enter the line")
         main = str.upper()
         print(main)
-
-
-    
-    
+  
           
         
 obj1 = SortedWord()
