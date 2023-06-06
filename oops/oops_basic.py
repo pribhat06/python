@@ -30,3 +30,17 @@ obj1.print_var()
 #all the methods are instance
 #we can access class variable using Class.variable or self.variable
 
+#show all the valiables inside the Class
+print(obj1.__dict__)
+
+
+class Phone:
+    def make_call(self):
+        print("I am making a call")
+    def play_game(self):
+        print("I'm playing game")
+
+p1 = Phone()
+
+p1.make_call()
+p1.play_game()
