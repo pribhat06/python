@@ -25,3 +25,8 @@ obj2 = Person(2)
 print("\n** modifying class object 1")
 obj1.n = 30
 obj1.print_var()
+
+
+#all the methods are instance
+#we can access class variable using Class.variable or self.variable
+
