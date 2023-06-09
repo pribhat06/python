@@ -26,9 +26,13 @@ class Stack:
             print(self.stack[i], end = ' ')
 
     def peek(self):
+        if self.top == -1:
+            return f"List is EMPTY" 
+        else:
+            return self.stack[self.top]
         # return last element and top
         # PEEK --> top: 1, element: 5
-        pass
+        #pass
 
 
     
@@ -51,6 +55,12 @@ print(s.push(33))
 print(s.push(44))
 print(s.push(55))
 
+
+print("***********")
+
+s.traverse()
+s.traverse()
 s.traverse()
 
+print("************")
 print(s.peek())
