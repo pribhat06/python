@@ -16,4 +16,4 @@ m1 = Manager()
 e1.display()
 m1.show()
 print(m1.bonus)
-print(e1.bonus1)
+#print(e1.bonus1) it is showing Employee' object has no attribute 'bonus1', cause it's a Parnt class, and can't access child class objects. 

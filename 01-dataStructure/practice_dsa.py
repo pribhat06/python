@@ -56,13 +56,9 @@ class Queue():
         return (self.head == self.size-1 )
 
     def enque(self, value):
-        if self.is_empty():
-            self.head = 0
-        elif self.is_full():
-            return "!! overflow"
-        else:
-            self.head += 1
-            self.queue[self.head] = value
+        if self.head == -1:
+            return "Overflow"
+        
 
 
 

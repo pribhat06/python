@@ -5,9 +5,7 @@
 # Note: 1-based indexing is used everywhere in this question.
 
 a = [0, 0, 0]
-
 updates = [1, 1, 2, 3]
-j = 1
 
 for j in updates:
     for i in range(j-1, len(a)):

@@ -132,7 +132,7 @@ strObj.printString()'''
 # bag,hello,without,world
 # Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
         
-class SortedWord:
+"""class SortedWord:
     def sorted_list(l):
         str = input ("Enter your word_list")
         words = [word.lower() for word in str.split()]
@@ -149,11 +149,12 @@ class SortedWord:
         
 obj1 = SortedWord()
 obj1.sorted_list()
-obj1.upper_line()
+obj1.upper_line()"""
 
 
 
-# Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+# Write a program that accepts sequence of lines as input 
+# and prints the lines after making all characters in the sentence capitalized.
 # Suppose the following input is supplied to the program:
 # Hello world
 # Practice makes perfect
@@ -162,20 +163,75 @@ obj1.upper_line()
 # PRACTICE MAKES PERFECT
 
 
+# class Cap():
+#         content = []
+#         def multiline_inp(l):
+#             content = []
+#             while True:
+#               try:
 
+#                 s= input("ja iccha")
+#                 if s:
+#                      content.append(s.upper())
+#                 else:
+#                      break
+#               except EOFError:
+#                 break  
 
-
-
-
-
-
-
-
+#         for sentance in content:
+#             print(sentance)
+                  
         
-              
+
+# c= Cap()
+# # c.capitalize()
+# print(c.multiline_inp())
+
+
+
+# lines = []
+# while True:
+#     s = input("print uqgsi")
+#     for i in s:
+#         if s:
+#             lines.append(s.upper())
+#         else:
+#             break
+#     print(lines)
 
 
 
 
-    
+# Write a program that accepts a sentence and calculate the 
+# number of letters and digits.
+# Suppose the following input is supplied to the program:
+# hello world! 123
+# Then, the output should be:
+# LETTERS 10
+# DIGITS 3
 
+
+inp = input("Enter your line: ")
+
+d = 0 
+s = 0
+nd = []
+ns = []
+for i in inp:
+      if i.isnumeric():
+            nd.append(i)
+            
+            #print("d is ", i, end=" ")
+            d += 1
+      
+      else:
+           i.isalpha()
+           ns.append(i)
+           
+           s += 1
+      
+print("Number of digits are :" , d, "Number of Letters is :", s)
+print("Here digits are:", "".join(nd), "Here letters are: ", "".join(ns))
+          
+          
+         

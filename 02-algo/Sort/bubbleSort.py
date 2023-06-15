@@ -38,10 +38,3 @@ def p_bubble_sort(arr):
 partial_sorted_arr = [34, 21, 54, 2, 3, 5]
 print(p_bubble_sort(partial_sorted_arr))
 
-print("\n----------------------------------------")
-def fn():
-  fn()
-  print('abc')
-  return 'xyz'
-
-print(fn())
