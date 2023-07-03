@@ -9,9 +9,5 @@ def s_num(inp):
     
 
 
-
-
-
-
 inp = int(input("Enter number"))
 print(s_num(inp))

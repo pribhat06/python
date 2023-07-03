@@ -1,13 +1,14 @@
 # User will input (3ages).Find the oldest one
+# https://docs.google.com/document/d/1b9z_mhbkKW_o2esMXKx12Yy3wEinxALFvDGtYaTGovQ/edit
 
 
 def find_oldest(inp1, inp2, inp3):
     if inp1 > inp2 and inp1> inp3:
-        print(f"largest is {inp1}")
+        print(f"oldest is {inp1}")
     elif inp2>inp3 and inp2>inp1:
-        print(f"largest is {inp2}")
+        print(f"oldest is {inp2}")
     else:
-        print(f"largest is {inp3}")
+        print(f"oldest is {inp3}")
 
 
 

@@ -1,3 +1,6 @@
+# Write a program that will give you the sum of 3 digits
+
+
 def sum_of_3(inp1, inp2, inp3):
     c = (inp1 +inp2 +inp3)
     return f"sum of three numbers : {c}"

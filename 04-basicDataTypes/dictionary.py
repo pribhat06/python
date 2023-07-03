@@ -147,3 +147,29 @@ now = datetime.datetime.now()
 print(now)'''
 
 
+# Write a Python script to check whether a given key already exists in a dictionary.
+
+dic = {'b': 1, 'f': 2, 'c': 3, 's': 5}
+x= "c"
+
+
+if x in dic:
+  print("present")
+else:
+  print("not present")
+
+# Write a Python script to concatenate the following dictionaries to create a new one.
+
+# Sample Dictionary :
+ 
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+
+d4={}
+
+for d in dic1, dic2, dic3:
+  d4.update(d)
+
+print(d4)
+

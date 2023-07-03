@@ -14,10 +14,6 @@ def reverse_num(num):
 
         
 
-        
-
-
-
 
 num = int(input("Enter number to reverse"))
 reverse_num(num)

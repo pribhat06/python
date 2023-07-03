@@ -20,11 +20,11 @@ class Finance:
 
 f1 = Finance()
 print(f1.__dict__)
-class HR:
+class HR:   
     def __init__ (self):
         self.number_of_emp = 32
-        f1.revenue = 1
-
+        #f1.revenue = 1 # here we can easily manupulate the data from Finance class,
+        print(f1.revenue)
 
 h1 = HR()
 print(f1.__dict__)
